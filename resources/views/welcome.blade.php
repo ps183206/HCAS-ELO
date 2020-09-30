@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Bas & Jordy 4 the win
                 </div>
 
                 <div class="links">

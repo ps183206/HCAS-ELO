@@ -648,20 +648,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </head>
     <body>
     <div class="main-w3layouts wrapper">
-        <h1>HCAS Registreren</h1>
+        <h1>HCAS Inloggen</h1>
         <div class="main-agileinfo">
             <div class="agileits-top">
                 <form action="#" method="post">
                     <input class="text" type="text" name="Lidnummer" placeholder="Lidnummer" required="">
                     <input class="text email" type="email" name="Gebruikersnaam" placeholder="Gebruikersnaam" required="">
                     <input class="text" type="password" name="Wachtwoord" placeholder="Wachtwoord" required="">
-                    <input class="text w3lpass" type="password" name="Herhaal Wachtwoord" placeholder="Herhaal Wachtwoord" required="">
                     <div class="wthree-text">
                         <div class="clear"> </div>
                     </div>
-                    <input type="submit" value="Registreren">
+                    <input type="submit" value="Inloggen">
                 </form>
-                <p>Heb je al een account?<a href="#"> Log dan hier in!</a></p>
+                <p>Nog geen account?<a href="#"> Registreer dan nu!</a></p>
             </div>
         </div>
     </div>

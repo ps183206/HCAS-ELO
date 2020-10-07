@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Inloggen HCAS</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -17,7 +17,7 @@
         <div class="main-agileinfo">
             <div class="agileits-top">
                 <form action="#" method="post">
-                    <input class="text" type="text" name="Lidnummer" placeholder="Lidnummer" required="">
+                    @csrf
                     <input class="text email" type="email" name="Gebruikersnaam" placeholder="Gebruikersnaam" required="">
                     <input class="text" type="password" name="Wachtwoord" placeholder="Wachtwoord" required="">
                     <div class="wthree-text">
@@ -25,7 +25,7 @@
                     </div>
                     <input type="submit" value="Inloggen">
                 </form>
-                <p>Nog geen account?<a href="#"> Registreer dan nu!</a></p>
+                <p>Nog geen account?<a href="register"> Registreer dan nu!</a></p>
             </div>
         </div>
     </div>

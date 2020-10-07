@@ -26,7 +26,7 @@
                 </div>
                 <input type="submit" value="Registreren">
             </form>
-            <p>Heb je al een account?<a href="#"> Log dan hier in!</a></p>
+            <p>Heb je al een account?<a href="/"> Log dan hier in!</a></p>
         </div>
     </div>
 </div>

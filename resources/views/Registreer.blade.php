@@ -14,24 +14,49 @@
             <form method="POST" action="/register">
                 {{ csrf_field() }}
                 <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" class="form-control" id="name" name="name">
+                    <label for="Lidnummer">Lidnummer:</label>
+                    <input type="number" class="form-control" id="Lidnummer" name="Lidnummer">
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" name="email">
+                    <label for="Teamnummer">Teamnummer:</label>
+                    <input type="text" class="form-control" id="Teamnummer" name="Teamnummer">
                 </div>
 
                 <div class="form-group">
-                    <label for="password">Password:</label>
-                    <input type="password" class="form-control" id="password" name="password">
+                    <label for="Voornaam">Voornaam:</label>
+                    <input type="text" class="form-control" id="Voornaam" name="Voornaam">
                 </div>
 
                 <div class="form-group">
-                    <label for="password_confirmation">Password Confirmation:</label>
-                    <input type="password" class="form-control" id="password_confirmation"
-                           name="password_confirmation">
+                    <label for="Tussenvoegsel">Tussenvoegsel:</label>
+                    <input type="text" class="form-control" id="Tussenvoegsel" name="Tussenvoegsel">
+                </div>
+
+                <div class="form-group">
+                    <label for="Achternaam">Achternaam:</label>
+                    <input type="text" class="form-control" id="Achternaam" name="Achternaam">
+                </div>
+
+                <div class="form-group">
+                    <label for="Emailadress">Emailadress:</label>
+                    <input type="email" class="form-control" id="Emailadress" name="Emailadress">
+                </div>
+
+                <div class="form-group">
+                    <label for="Gebruikersnaam">Gebruikersnaam:</label>
+                    <input type="text" class="form-control" id="Gebruikersnaam" name="Gebruikersnaam">
+                </div>
+
+                <div class="form-group">
+                    <label for="Wachtwoord">Wachtwoord:</label>
+                    <input type="password" class="form-control" id="Wachtwoord" name="Wachtwoord">
+                </div>
+
+                <div class="form-group">
+                    <label for="Wachtwoord_Herhalen">Wachtwoord Herhalen:</label>
+                    <input type="password" class="form-control" id="Wachtwoord_Herhalen"
+                           name="Wachtwoord_Herhalen">
                 </div>
 
                 <div class="form-group">

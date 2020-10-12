@@ -16,7 +16,7 @@
         <h1>HCAS Inloggen</h1>
         <div class="main-agileinfo">
             <div class="agileits-top">
-                <form action="#" method="post">
+                <form action="/login" method="post">
                     @csrf
                     <input class="text email" type="email" name="Gebruikersnaam" placeholder="Gebruikersnaam" required="">
                     <input class="text" type="password" name="Wachtwoord" placeholder="Wachtwoord" required="">

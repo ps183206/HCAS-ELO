@@ -4,27 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="{{ url('/css/main.css') }}" />
+    <title>Registreren</title>
 </head>
 <body>
 <div class="main-w3layouts wrapper">
     <h1>HCAS Registreren</h1>
     <div class="main-agileinfo">
         <div class="agileits-top">
-            <form action="#" method="post">
-                <input class="text" type="text" name="Lidnummer" placeholder="Lidnummer" required="">
-                <input class="text email" type="email" name="Gebruikersnaam" placeholder="Gebruikersnaam" required="">
-                <input class="text" type="password" name="Wachtwoord" placeholder="Wachtwoord" required="">
-                <input class="text w3lpass" type="password" name="Herhaal Wachtwoord" placeholder="Herhaal Wachtwoord" required="">
-                <div class="wthree-text">
-                    <div class="clear"> </div>
+            <form method="POST" action="/register">
+                {{ csrf_field() }}
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name">
                 </div>
-                <input type="submit" value="Registreren">
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password">
+                </div>
+
+                <div class="form-group">
+                    <label for="password_confirmation">Password Confirmation:</label>
+                    <input type="password" class="form-control" id="password_confirmation"
+                           name="password_confirmation">
+                </div>
+
+                <div class="form-group">
+                    <button style="cursor:pointer" type="submit" class="btn btn-primary">Submit</button>
+                </div>
             </form>
             <p>Heb je al een account?<a href="/"> Log dan hier in!</a></p>
         </div>

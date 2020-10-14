@@ -31,3 +31,11 @@ Route::get('/logout', [LoginController::class, 'destroy']);
 Route::get('/Dashboard', function () {
     return view('TrainerDashboard');
 });
+
+Route::get('/DetailsOefeningen', function () {
+    return view('DetailsOefeningen');
+});
+
+Route::get('/DetailsTrainingen', function () {
+    return view('DetailsTraining');
+});
